@@ -1,1 +1,13 @@
-d
+environment: 'development'
+databaseUrl: 'mongodb://localhost:27017/database'
+mode: 'development'
+sentryDSN: ''
+discord:
+  token: 'NzU4NTI5MzQ2MjM0MjIwNjE0.X2wRgA.KsMU2Ea_ifeDP4kXx-lClRrn-2Y'
+  prefix: 'x!'
+
+# options from ioredis
+# read here: https://github.com/luin/ioredis/blob/master/API.md#new-redisport-host-options
+redis:
+  host: 'localhost'
+  port: 6379
